@@ -1,4 +1,6 @@
-namespace Solution5Harrison
+using System.Security.Policy;
+
+namespace Week8App
 {
     internal static class Program
     {
@@ -11,7 +13,7 @@ namespace Solution5Harrison
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmChoices());
+            Application.Run(new frmCollections());
         }
     }
 }
